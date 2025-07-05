@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+}
+
+#course-title {
+  display: block;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-weight: bold;
+  background-color: #0055aa;
+  margin-left: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  position: relative;
+}
+
+nav a:hover {
+  background-color: #0055aa;
+}
+
+main {
+  
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.goal-content{
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 1rem;
+  background-color: #f9f9f9;
+
+}
+.goal-content img {
+width: 120px;
+border-radius: 8px;
+margin: 2rem auto;
+}
+hr {
+  width: 85%;
+  margin: 0 auto 1rem auto;
+  border: 1px solid #ccc;resize:
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+  padding: 20px;
+}
+.card h2{
+background-color:#003366;
+padding: 50px;
+margin: 0;
+color: #fff;
+border-radius: 8px;
+}
+.card-content {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.card-content img {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  margin-bottom: 0.5rem;
+}
+
+.card ul li a {
+  text-decoration: underline;
+  color: #003366;
+  content: "•";
+}
+
+.card ul li a:hover {
+  text-decoration: underline;
+  content: "•";
+}
+
+footer {
+  text-align: center;
+  background: #003366;
+  color: #fff;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
