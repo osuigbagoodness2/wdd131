@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lagos Laundry Express – Fast, reliable laundry service in Lagos with pickup and delivery options." />
+  <meta name="author" content="Osuigba Nmesoma" />
+  <title>Lagos Laundry Express</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="script.js" />
+  <link rel="stylesheet" href="nav.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="custom-header">
+   
+  <div class="logo-container">
+    <img src="logo (1).png" alt="Company Logo" style="width: 100px;px;  border-radius:8px; margin: top 2px;">
+    <span class="logo">Lagos Laundry Express</span>
+    </div>
+    <div class="navs open">
+      <nav class="main-nav">
+        <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#booking">Book Now</a></li>
+      <li><a href="#contact">Contact</a> </li>
+        </ul>
+      </nav>
+    </div>
+    <button class="mobile-icon">Menu</button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="overlay">
+      <h1>Fast & Reliable Laundry Service</h1>
+      <p>Convenient pickup and delivery anywhere in Lagos. Affordable, professional, and on time.</p>
+      <a href="#booking" class="cta-btn">Book Your Pickup</a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="card-container">
+      <div class="card">
+        <div class="col-md-4 col-sm-6 wow animate__fadeInUp" data-wow-duration="0.5s"></div>
+        <img src="laundry 4.jpg" alt="Express Laundry" />
+        <h3>Express Laundry</h3>
+        <p>Same-day pickup and delivery for urgent needs.</p>
+      </div>
+      <div class="card">
+        <div class="col-md-4 col-sm-6 wow animate__fadeInUp" data-wow-duration="0.5s"></div>
+        <img src="laundry 1.jpg" alt="Regular laundry" />
+        <h3>Regular Laundry</h3>
+        <p>48-hour service for your everyday clothes and fabrics.</p>
+      </div>
+      <div class="card">
+        <div class="col-md-4 col-sm-6 wow animate__fadeInUp" data-wow-duration="0.5s"></div>
+        <img src="laundry 3.jpg" alt="Dry cleaning" />
+        <h3>Dry Cleaning</h3>
+        <p>Perfect care for suits, gowns, and special fabrics.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <ul>
+      <li><strong>Express Service:</strong> ₦3000 per 5kg</li>
+      <li><strong>Regular Service:</strong> ₦2000 per 5kg</li>
+      <li><strong>Dry Cleaning:</strong> From ₦1500 per item</li>
+    </ul>
+  </section>
+
+  <!-- BOOKING -->
+  <section id="booking" class="booking-section">
+    <div class="form-container">
+      <h2>Book a Pickup</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="tel" placeholder="Phone Number" required />
+        <input type="text" placeholder="Pickup Address" required />
+        <select required>
+          <option value="">Select Service</option>
+          <option>Express Laundry</option>
+          <option>Regular Laundry</option>
+          <option>Dry Cleaning</option>
+        </select>
+        <button type="submit">Submit Booking</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@lagoslaundryexpress.com">info@lagoslaundryexpress.com</a></p>
+    <p>Phone: +234 806 123 4567</p>
+    <p>Address: 15 Marina Road, Lagos, Nigeria</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#booking">Book Now</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <p>&copy; 2025 Lagos Laundry Express. All rights reserved.</p>
+  </footer>
+<script>
+
+        let navBtn = document.querySelector('.mobile-icon')
+        navBtn.onclick = () => {
+            let nav = document.querySelector('.navs')
+            nav.classList.toggle('open')
+        }
+    </script>
+    
+</body>
+</html>
